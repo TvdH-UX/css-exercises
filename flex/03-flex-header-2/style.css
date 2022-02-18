@@ -33,11 +33,24 @@ body {
   font-style: italic;
 }
 
+.left-nav {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.right-nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
 button {
   border: none;
   border-radius: 8px;
   background: rebeccapurple;
   color: white;
+  font-weight: bold;
   padding: 8px 24px;
 }
 
