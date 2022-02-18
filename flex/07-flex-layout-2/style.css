@@ -12,7 +12,7 @@ body {
 
 ul {
   list-style: none;
-  padding: 20px;
+  padding: 0;
   margin: 0;
   display: flex;
   flex-direction: column;
@@ -35,7 +35,6 @@ a {
   font-size: 32px;
   font-weight:900;
   display: flex;
-  justify-content: flex-start;
   align-items: center;
   padding-left: 16px;
 }
@@ -58,6 +57,7 @@ a {
   background: royalblue;
   flex-shrink: 0;
   font-size: 24px;
+  padding: 16px;
 }
 
 .cards {
@@ -72,6 +72,5 @@ a {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
   width: 300px;
-  flex-shrink: 0;
   padding: 16px;
 }
