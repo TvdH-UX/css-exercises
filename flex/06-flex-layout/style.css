@@ -45,6 +45,14 @@ a {
   padding: 16px;
 }
 
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+
 .footer {
   display: flex;
   justify-content: space-between;
