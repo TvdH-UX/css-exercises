@@ -17,6 +17,16 @@ img {
   display: flex;
   padding: 60px;
   gap: 30px;
+  text-align: center;
+}
+
+.plants div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  flex: 1;
+  gap: 10px;
 }
 
 /* do not edit this footer */
