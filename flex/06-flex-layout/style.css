@@ -35,6 +35,11 @@ ul {
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+  color: rgb(51, 51, 51);
+}
+
 .header {
   display: flex;
 }
