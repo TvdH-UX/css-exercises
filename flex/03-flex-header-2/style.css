@@ -33,16 +33,8 @@ body {
   font-style: italic;
 }
 
-.left-nav {
+.left-nav, .right-nav {
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 15px;
-}
-
-.right-nav {
-  display: flex;
-  justify-content: flex-end;
   align-items: center;
   gap: 15px;
 }
